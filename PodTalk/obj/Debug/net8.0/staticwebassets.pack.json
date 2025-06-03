@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PodTalk.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PodTalk.i8zjfq0inp.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\config.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "E:\\Рабочий стол\\PodTalk\\PodTalk\\wwwroot\\admin\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PodTalk.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PodTalk.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PodTalk.props",
+      "PackagePath": "build\\PodTalk.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PodTalk.props",
+      "PackagePath": "buildMultiTargeting\\PodTalk.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PodTalk.props",
+      "PackagePath": "buildTransitive\\PodTalk.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
