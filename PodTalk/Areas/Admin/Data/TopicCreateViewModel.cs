@@ -2,8 +2,8 @@
 {
     public class TopicCreateViewModel
     {
-        public required string Name { get; set; }
-        public string? CoverImageUrl { get; set; }
+        public required string Title { get; set; }
+        public required IFormFile CoverImageFile { get; set; }
 
     }
 }

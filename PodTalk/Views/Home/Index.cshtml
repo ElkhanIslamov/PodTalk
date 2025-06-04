@@ -1,4 +1,7 @@
-﻿
+﻿@{
+    HomeViewModel hm = Model;
+    var topics = hm.Topics;
+}   
 <section class="hero-section">
     <div class="container">
         <div class="row">
@@ -71,102 +74,6 @@
                         </div>
                     </div>
 
-                    <div class="owl-carousel-info-wrap item">
-                        <img src="~/assets/images/profile/cute-smiling-woman-outdoor-portrait.jpg" class="owl-carousel-image img-fluid" alt="">
-
-                        <div class="owl-carousel-info">
-                            <h4 class="mb-2">Taylor</h4>
-
-                            <span class="badge">Modeling</span>
-
-                            <span class="badge">Fashion</span>
-                        </div>
-
-                        <div class="social-share">
-                            <ul class="social-icon">
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-twitter"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-facebook"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-pinterest"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="owl-carousel-info-wrap item">
-                        <img src="~/assets/images/profile/man-portrait.jpg" class="owl-carousel-image img-fluid" alt="">
-
-                        <div class="owl-carousel-info">
-                            <h4 class="mb-2">Nick</h4>
-
-                            <span class="badge">Acting</span>
-                        </div>
-
-                        <div class="social-share">
-                            <ul class="social-icon">
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-instagram"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-youtube"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="owl-carousel-info-wrap item">
-                        <img src="~/assets/images/profile/woman-posing-black-dress-medium-shot.jpg" class="owl-carousel-image img-fluid" alt="">
-
-                        <div class="owl-carousel-info">
-                            <h4 class="mb-2">
-                                Elsa
-                                <img src="~/assets/images/verified.png" class="owl-carousel-verified-image img-fluid" alt="">
-                            </h4>
-
-                            <span class="badge">Influencer</span>
-                        </div>
-
-                        <div class="social-share">
-                            <ul class="social-icon">
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-instagram"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-youtube"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="owl-carousel-info-wrap item">
-                        <img src="~/assets/images/profile/smart-attractive-asian-glasses-male-standing-smile-with-freshness-joyful-casual-blue-shirt-portrait-white-background.jpg" class="owl-carousel-image img-fluid" alt="">
-
-                        <div class="owl-carousel-info">
-                            <h4 class="mb-2">Chan</h4>
-
-                            <span class="badge">Education</span>
-                        </div>
-
-                        <div class="social-share">
-                            <ul class="social-icon">
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-linkedin"></a>
-                                </li>
-
-                                <li class="social-icon-item">
-                                    <a href="#" class="social-icon-link bi-whatsapp"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -264,7 +171,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-6 col-12">
                 <div class="custom-block d-flex">
                     <div class="">
@@ -358,17 +264,18 @@
                     <h4 class="section-title">Topics</h4>
                 </div>
             </div>
-
+            @foreach(var item in topics)
+            {               
             <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                 <div class="custom-block custom-block-overlay">
                     <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="~/assets/images/topics/physician-consulting-his-patient-clinic.jpg" class="custom-block-image img-fluid" alt="">
+                        <img src="~/images/topic/@item.ImageUrl" class="custom-block-image img-fluid" alt="">
                     </a>
 
                     <div class="custom-block-info custom-block-overlay-info">
                         <h5 class="mb-1">
                             <a href="listing-page.html">
-                                Productivity
+                                @item.Title
                             </a>
                         </h5>
 
@@ -376,61 +283,9 @@
                     </div>
                 </div>
             </div>
+            }
 
-            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                <div class="custom-block custom-block-overlay">
-                    <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="~/assets/images/topics/repairman-doing-air-conditioner-service.jpg" class="custom-block-image img-fluid" alt="">
-                    </a>
-
-                    <div class="custom-block-info custom-block-overlay-info">
-                        <h5 class="mb-1">
-                            <a href="listing-page.html">
-                                Technician
-                            </a>
-                        </h5>
-
-                        <p class="badge mb-0">12 Episodes</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                <div class="custom-block custom-block-overlay">
-                    <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="~/assets/images/topics/woman-practicing-yoga-mat-home.jpg" class="custom-block-image img-fluid" alt="">
-                    </a>
-
-                    <div class="custom-block-info custom-block-overlay-info">
-                        <h5 class="mb-1">
-                            <a href="listing-page.html">
-                                Mindfullness
-                            </a>
-                        </h5>
-
-                        <p class="badge mb-0">35 Episodes</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                <div class="custom-block custom-block-overlay">
-                    <a href="detail-page.html" class="custom-block-image-wrap">
-                        <img src="~/assets/images/topics/delicious-meal-with-sambal-arrangement.jpg" class="custom-block-image img-fluid" alt="">
-                    </a>
-
-                    <div class="custom-block-info custom-block-overlay-info">
-                        <h5 class="mb-1">
-                            <a href="listing-page.html">
-                                Cooking
-                            </a>
-                        </h5>
-
-                        <p class="badge mb-0">12 Episodes</p>
-                    </div>
-                </div>
-            </div>
-
+    
         </div>
     </div>
 </section>

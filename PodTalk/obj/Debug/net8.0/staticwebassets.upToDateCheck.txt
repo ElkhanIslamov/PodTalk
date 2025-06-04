@@ -111,3 +111,5 @@ wwwroot\assets\js\bootstrap.bundle.min.js
 wwwroot\assets\js\custom.js
 wwwroot\assets\js\jquery.min.js
 wwwroot\assets\js\owl.carousel.min.js
+wwwroot\images\topic\developer-174fed1f-59f7-43ff-a17d-421961077248.jpg
+wwwroot\images\topic\teacher-bc7e0257-08cf-4e82-aa38-fd502f7802b2.png

@@ -536,3 +536,4 @@ C:\Users\elkhanmi\Desktop\PodTalk\PodTalk\obj\Debug\net8.0\refint\PodTalk.dll
 C:\Users\elkhanmi\Desktop\PodTalk\PodTalk\obj\Debug\net8.0\PodTalk.pdb
 C:\Users\elkhanmi\Desktop\PodTalk\PodTalk\obj\Debug\net8.0\PodTalk.genruntimeconfig.cache
 C:\Users\elkhanmi\Desktop\PodTalk\PodTalk\obj\Debug\net8.0\ref\PodTalk.dll
+E:\Рабочий стол\PodTalk\PodTalk\obj\Debug\net8.0\PodTalk.sourcelink.json

@@ -8,23 +8,23 @@
         </div>
         <div class="card-body">
             <h4 class="card-title">Topic</h4>
-            <a asp-controller="product" asp-action="create" class="btn btn-primary">Add topic</a>
+            <a asp-controller="topic" asp-action="create" class="btn btn-primary">Add topic</a>
             <div class="table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
                             <th>Title</th>
+                            <th>Episode</th>
                             <th>Image</th>
-                            
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var item in Model)
                         {
                             <tr>
+                                <td><img src="~/images/topic/@item.ImageUrl" alt="test" height="80px" width="70px"></td>
                                 <td>@item.Title</td>
-                                <td>@item.ImageUrl</td>
-                                
+                                <td>@item.Episodes</td>                               
                                 <td>
                                     <a asp-controller="product" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
                                     <a asp-controller="product" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>

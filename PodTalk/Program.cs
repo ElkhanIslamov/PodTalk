@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using PodTalk.Areas.Admin.Data;
 using PodTalk.DataContext;
 using PodTalk.DataContext.Entities;
 
@@ -32,7 +33,9 @@ namespace PodTalk
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
-            });     
+            });
+
+            FilePathConstants.TopicPath = Path.Combine(builder.Environment.WebRootPath, "images", "topic");
 
             var app = builder.Build();
 
