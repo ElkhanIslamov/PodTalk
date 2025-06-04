@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PodTalk.Areas.Admin.Data;
 using PodTalk.Areas.Admin.Extensions;
@@ -27,25 +28,33 @@ namespace PodTalk.Areas.Admin.Controllers
         public async Task<IActionResult> Details(int id)
         {
             var topic = await _dbContext.Topics
-                .Include(t => t.Episodes)
-                .FirstOrDefaultAsync(t => t.Id == id);
-            if (topic == null)
-            {
-                return NotFound();
-            }
+            .SingleOrDefaultAsync(t => t.Id == id);
+
+
             return View(topic);
         }
 
         public async Task<IActionResult> Delete([FromBody] RequestModel requestModel)
         {
             var topic = await _dbContext.Topics
-                .Include(t => t.Episodes)
-                .FirstOrDefaultAsync(t => t.Id == requestModel.Id);
-            if (topic == null)
+           .FirstOrDefaultAsync(x => x.Id == requestModel.Id);
+
+            if (topic == null) return NotFound();
+
+            var removedTopic = _dbContext.Topics.Remove(topic);
+            await _dbContext.SaveChangesAsync();
+
+            if (removedTopic != null)
             {
-                return NotFound();
+                System.IO.File.Delete(Path.Combine(FilePathConstants.TopicPath, topic.ImageUrl));
+
+                foreach (var item in topic.ImageUrl)
+                {
+                    System.IO.File.Delete(Path.Combine(FilePathConstants.TopicPath));
+                }
             }
-            return View(topic);
+
+            return Json(removedTopic.Entity);
         }
         public async Task<IActionResult> Create()
         {
@@ -88,6 +97,74 @@ namespace PodTalk.Areas.Admin.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> Update(int id)
+        {
+            var topic = await _dbContext.Topics
+               .FirstOrDefaultAsync(x => x.Id == id);                      
+
+            if (topic == null) return NotFound();
+
+            TopicUpdateViewModel updateViewModel = new TopicUpdateViewModel
+            {
+                Title = topic.Title,
+                CoverImageUrl = topic.ImageUrl,
+             
+            };
+
+            return View(updateViewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(TopicUpdateViewModel model)
+        {
+            var topic = await _dbContext.Topics.FirstOrDefaultAsync(x => x.Id == model.Id);
+
+            if (topic == null) return NotFound();
+
+            if (!ModelState.IsValid)
+            {
+                 return View(model);
+            }
+
+            topic.Title = model.Title;
+            topic.ImageUrl = model.CoverImageUrl;
+         
+
+            if (model.CoverImageFile != null)
+            {
+                if (!model.CoverImageFile.IsImage())
+                {
+                    ModelState.AddModelError("ImageFile", "Sekil secilmelidir!");
+              
+                    return View(model);
+                }
+
+                if (!model.CoverImageFile.IsAllowedSize(1))
+                {
+                    ModelState.AddModelError("ImageFile", "Sekil hecmi 1mb-dan cox ola bilmez");
+                
+                    return View(model);
+                }
+
+                var unicalCoverImageFileName = await model.CoverImageFile.GenerateFile(FilePathConstants.TopicPath);
+
+                if (topic.ImageUrl != null)
+                {
+                    System.IO.File.Delete(Path.Combine(FilePathConstants.TopicPath, topic.ImageUrl));
+                }
+
+                topic.ImageUrl = unicalCoverImageFileName;
+            }
+    
+
+            _dbContext.Topics.Update(topic);
+            await _dbContext.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+      
 
     }
 }

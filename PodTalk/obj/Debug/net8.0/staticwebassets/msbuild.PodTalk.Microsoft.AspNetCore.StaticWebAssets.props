@@ -1434,8 +1434,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>omq8vickmr</Fingerprint>
-      <Integrity>MAAs/V26/77hdFjGcVbqpxjaU0XyX23q6hiQlOWQoqw=</Integrity>
+      <Fingerprint>9yijiowrsf</Fingerprint>
+      <Integrity>T6cqKX18kWWM8V0A7wqeToPZpivynTTl9gkuUxJWVnw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\bootstrap-icons.css'))</OriginalItemSpec>
@@ -1452,8 +1452,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f9thepfd5f</Fingerprint>
-      <Integrity>Y7CJtpmwmIMP7x4jwY4kEzk9BxW1zipfSCN1OsJzno0=</Integrity>
+      <Fingerprint>jze4wm6kbq</Fingerprint>
+      <Integrity>IUOUHAPazai08QFs7W4MbzTlwEWFo7z/4zw8YmxEiko=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\bootstrap.min.css'))</OriginalItemSpec>
@@ -1470,8 +1470,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qk5jasshga</Fingerprint>
-      <Integrity>BiNoZ3vO/ZSV6LMg4M8ixPrKnxvARmbv65zVMHzVkaQ=</Integrity>
+      <Fingerprint>a28q16vo32</Fingerprint>
+      <Integrity>UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\owl.carousel.min.css'))</OriginalItemSpec>
@@ -1488,8 +1488,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>om8gxg18c4</Fingerprint>
-      <Integrity>UF//gX831DiZJ1hTqm1vTzZEtqvixCCtnNbKqx7xR8s=</Integrity>
+      <Fingerprint>qt4gg61hoh</Fingerprint>
+      <Integrity>kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\css\owl.theme.default.min.css'))</OriginalItemSpec>
@@ -1974,8 +1974,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1ej71wpc0i</Fingerprint>
-      <Integrity>F/EAajjt3j6LHUREWW47mQ7J/G8n9DYvhCbeBRRD4Hw=</Integrity>
+      <Fingerprint>8jd1cjsh38</Fingerprint>
+      <Integrity>xLI5SjD6DkojxrMIVBNT4ghypv12Xtj7cOa0AgKd6wA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\bootstrap.bundle.min.js'))</OriginalItemSpec>
@@ -2010,8 +2010,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yae487z44e</Fingerprint>
-      <Integrity>lipRTeeySXCOBHjQWZ1a+V4OK6DGUAvQBp3fKN044hc=</Integrity>
+      <Fingerprint>sc7v1wgpvn</Fingerprint>
+      <Integrity>BGhb3v7SCZyuX1RFBbgxnueuTQp/kKk7LnZL3lytHeY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\jquery.min.js'))</OriginalItemSpec>
@@ -2028,8 +2028,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qhliun387q</Fingerprint>
-      <Integrity>TgeBvdLLtdsE2jteBZ7so04yX6u4k77nRXtbq/W3wCk=</Integrity>
+      <Fingerprint>3ajr5l1ur1</Fingerprint>
+      <Integrity>pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\js\owl.carousel.min.js'))</OriginalItemSpec>
@@ -2051,6 +2051,96 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\developer-174fed1f-59f7-43ff-a17d-421961077248.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\developer-5e17b01c-7a52-4180-b557-788452298802.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PodTalk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PodTalk</BasePath>
+      <RelativePath>images/topic/developer-5e17b01c-7a52-4180-b557-788452298802.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r1vfleuao1</Fingerprint>
+      <Integrity>ESiXBzbKOKjyJC7eJBCgiQCyiHfBj3wxegyFgbCAipk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\developer-5e17b01c-7a52-4180-b557-788452298802.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\doctor-142d8cb6-7dcf-43c4-9b6a-ff1c0a34b125.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PodTalk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PodTalk</BasePath>
+      <RelativePath>images/topic/doctor-142d8cb6-7dcf-43c4-9b6a-ff1c0a34b125.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u77a2vy7cr</Fingerprint>
+      <Integrity>9r6//datN6GrxTUw8yEXHfxDNBTI+T//49ZyQ6rQuyg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\doctor-142d8cb6-7dcf-43c4-9b6a-ff1c0a34b125.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\fireman-e4401c16-5b5f-4128-bdbf-1e358686b10d.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PodTalk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PodTalk</BasePath>
+      <RelativePath>images/topic/fireman-e4401c16-5b5f-4128-bdbf-1e358686b10d.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uu8ilbtykc</Fingerprint>
+      <Integrity>qnGGjHAhj965h7JoGDhZQ++0OXMeIivntCEOtaiaTp4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\fireman-e4401c16-5b5f-4128-bdbf-1e358686b10d.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\firewoman-fa68a2e2-4f3d-4cd3-a63a-6ef346c4a2e7.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PodTalk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PodTalk</BasePath>
+      <RelativePath>images/topic/firewoman-fa68a2e2-4f3d-4cd3-a63a-6ef346c4a2e7.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ekikyuzfs4</Fingerprint>
+      <Integrity>/iTW+OxpUwg26Hs89j15T39vY9t49MXTJKs459zr8v8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\firewoman-fa68a2e2-4f3d-4cd3-a63a-6ef346c4a2e7.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\police-290f5192-844a-4553-bf4c-8adf5cbc9d64.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>PodTalk</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/PodTalk</BasePath>
+      <RelativePath>images/topic/police-290f5192-844a-4553-bf4c-8adf5cbc9d64.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>q8xbq9opky</Fingerprint>
+      <Integrity>ClssWKY8p+dg7YQob0Dew35p1HdV/yjjPaTkYsYtH9U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\police-290f5192-844a-4553-bf4c-8adf5cbc9d64.jfif'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\topic\teacher-bc7e0257-08cf-4e82-aa38-fd502f7802b2.png'))">
       <SourceType>Package</SourceType>

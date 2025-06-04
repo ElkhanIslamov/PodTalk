@@ -1,4 +1,4 @@
-﻿@model TopicCreateViewModel
+﻿@model TopicUpdateViewModel
 
 <div class="content-wrapper">
     <!-- Content -->
@@ -11,7 +11,7 @@
             <div class="col-6">
                 <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                  </div>
+                    </div>
                     <div class="card-body">
                         <form method="post" enctype="multipart/form-data">
                             <div class="mb-3">
@@ -25,13 +25,13 @@
                             </div>
                             <span asp-validation-for="CoverImageFile" class="text-danger"></span>
                             <div asp-validation-summary="ModelOnly"></div>
-                          <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                             <a asp-action="index" class="btn btn-light">Cancel</a>
                         </form>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!-- / Content -->

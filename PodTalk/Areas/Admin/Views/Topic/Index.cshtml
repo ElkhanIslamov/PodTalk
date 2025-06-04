@@ -13,9 +13,9 @@
                 <table class="table">
                     <thead>
                         <tr>
+                            <th>Image</th>
                             <th>Title</th>
                             <th>Episode</th>
-                            <th>Image</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -26,8 +26,8 @@
                                 <td>@item.Title</td>
                                 <td>@item.Episodes</td>                               
                                 <td>
-                                    <a asp-controller="product" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
-                                    <a asp-controller="product" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                    <a asp-controller="topic" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                                    <a asp-controller="topic" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
                                     @*  <form method="post" asp-action="delete">
                                             <input type="hidden" name="id" value="@item.Id"/>
                                             <button type="submit" class="btn btn-danger">Delete</button>
