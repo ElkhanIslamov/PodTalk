@@ -124,5 +124,21 @@ namespace PodTalk.Areas.Admin.Controllers
             await _dbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult>Update(int id)
+        {
+            var speaker = await _dbContext.Speakers
+                .FirstOrDefaultAsync(s => s.Id == id);
+
+            if (speaker == null) return NotFound();
+
+            TopicUpdateViewModel updateViewModel = new TopicUpdateViewModel
+            {
+                Title = speaker.Name,
+                CoverImageUrl = speaker.ImageUrl,
+
+            };
+
+            return View(speaker);
+        }
     }
 }

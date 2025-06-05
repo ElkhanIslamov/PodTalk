@@ -1,52 +1,60 @@
 ﻿@model List<Speaker>
-<div class="col-xxl">
-    <div class="card mb-4">
-        <div class="card-header d-flex align-items-center justify-content-between">
-            <small class="text-muted float-end">Default label</small>
-        </div>
-        <div class="card-body">
-            <h4 class="card-title">Topic</h4>
-            <a asp-controller="speaker" asp-action="create" class="btn btn-primary">Add Speaker</a>
-            <div class="table-responsive">
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Image</th>
-                            <th>Name</th>
-                            <th>Episode</th>
-                            <th>Facebook</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td><img src="~/images/topic/@item.ImageUrl" alt="test" height="80px" width="70px"></td>
-                                <td>@item.ImageUrl</td>
-                                <td>@item.Name</td>
-								<td>@item.Episodes.ToList()</td>
-                                <td>@item.FacebookUrl</td>
-                                <td>@item.SpeakerTopics</td>
-                                <td>@item.InstagramUrl.</td>
-                                <td>@item.LinkedInUrl</td>
-                                <td>
-                                    <a asp-controller="speaker" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
-                                    <a asp-controller="speaker" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
-                                    @*  <form method="post" asp-action="delete">
+
+<div class="col mb-8">
+    <h5 class="card-header">Speaker</h5>
+    <div class="card-header d-flex align-items-center justify-content-between">
+    <a asp-controller="speaker" asp-action="create" class="btn btn-primary">Add speaker</a>
+    </div>
+    <div class="table-responsive text-nowrap">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Social</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="table-border-bottom-0">
+                @foreach(var item in Model)
+                {
+                    <tr>
+                        <td><img height="80px" width="70px" src="~/images/speaker/@item.ImageUrl" /></td>
+                        <td>@item.Name</td>
+                        <td>
+                            <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
+                                @if(item.FacebookUrl!=null)
+                                {
+									<li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Facebook">
+                                        <a href="@item.FacebookUrl" class="social-icon-link bi-twitter"></a>
+                                    </li>
+                                }
+                                @if (item.YoutubeUrl != null)
+                                {
+                                    <li data-bs-toggle="tooltip" data-popup="tooltip-custom" data-bs-placement="top" class="avatar avatar-xs pull-up" title="" data-bs-original-title="Facebook">
+                                        <a href="@item.YoutubeUrl" class="social-icon-link bi-youtube"></a>
+                                    </li>
+                                }
+                            </ul>
+                        </td>
+                        <td><span class="badge bg-label-primary me-1">Active</span></td>
+                        <td>                        
+                            <a asp-controller="speaker" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                            <a asp-controller="speaker" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                @*  <form method="post" asp-action="delete">
                                             <input type="hidden" name="id" value="@item.Id"/>
                                             <button type="submit" class="btn btn-danger">Delete</button>
                                          </form> *@
-                                    <button onclick="Delete(@item.Id, this)" class="btn btn-danger">Delete</button>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </div>
+                            <button onclick="Delete(@item.Id, this)" class="btn btn-danger">Delete</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
     </div>
-</div>
+    </div>
+    
 <script>
     function Delete(id, button){
     const url = '/admin/speaker/delete';

@@ -111,12 +111,13 @@ wwwroot\assets\js\bootstrap.bundle.min.js
 wwwroot\assets\js\custom.js
 wwwroot\assets\js\jquery.min.js
 wwwroot\assets\js\owl.carousel.min.js
+wwwroot\images\speaker\fireman-b5fbcdd0-b324-4786-8812-9a45cbaa84c8.jfif
+wwwroot\images\speaker\police-b9c767e8-4353-4751-951f-53b2f6b9b4cf.jfif
+wwwroot\images\speaker\teacher-4bf2a28e-9080-4fb0-8e0c-13f4c24487f5.jfif
 wwwroot\images\topic\developer-174fed1f-59f7-43ff-a17d-421961077248.jpg
-wwwroot\images\topic\developer-5e17b01c-7a52-4180-b557-788452298802.jfif
 wwwroot\images\topic\doctor-142d8cb6-7dcf-43c4-9b6a-ff1c0a34b125.jfif
 wwwroot\images\topic\doctor-55418223-73b1-4bc4-aafc-8925e7e45f06.jpg
 wwwroot\images\topic\fireman-e4401c16-5b5f-4128-bdbf-1e358686b10d.jfif
-wwwroot\images\topic\firewoman-fa68a2e2-4f3d-4cd3-a63a-6ef346c4a2e7.jfif
 wwwroot\images\topic\police-290f5192-844a-4553-bf4c-8adf5cbc9d64.jfif
 wwwroot\images\topic\police-d70fa24f-9726-4455-a964-d4e03f2863e5.jpg
 wwwroot\images\topic\teacher-bc7e0257-08cf-4e82-aa38-fd502f7802b2.png

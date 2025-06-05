@@ -22,18 +22,35 @@
                             </div>
                             <span asp-validation-for="CoverImageFile" class="text-danger"></span>
                             <div class="mb-3">
-                                <a asp-for="FacebookUrl" class="social-icon-link bi-facebook" />
+                                <label class="form-label" for="basic-default-company">Youtube</label>
+                                <input asp-for="YoutubeUrl" class="form-control" id="basic-default-company" placeholder="" />
                             </div>
                             <span asp-validation-for="YoutubeUrl" class="text-danger"></span>
                             <div class="mb-3">
-                                <a asp-for="YoutubeUrl" class="social-icon-link bi-youtube" />
+                                <label class="form-label" for="basic-default-company">Facebook</label>
+                                <input asp-for="FacebookUrl" class="form-control" id="basic-default-company" placeholder="" />
                             </div>
-                            <span asp-validation-for="YoutubeUrl" class="text-danger"></span>
+                            <span asp-validation-for="FacebookUrl" class="text-danger"></span>
                             <div class="mb-3">
-                                <label class="form-label" for="basic-default-company">Episode</label>
-                                <select asp-for="EpisodeId" asp-items="Model.EpisodeSelectListItems" class="form-control" id="exampleInputName1" placeholder="Teacher"></select>
+                                <label class="form-label" for="basic-default-company">Instagram</label>
+                                <input asp-for="InstagramUrl" class="form-control" id="basic-default-company" placeholder="" />
                             </div>
-                            <span asp-validation-for="EpisodeId" class="text-danger"></span>               
+                            <span asp-validation-for="InstagramUrl" class="text-danger"></span>
+                            <div class="mb-3">
+                                <label class="form-label" for="basic-default-company">Twitter</label>
+                                <input asp-for="TwitterUrl" class="form-control" id="basic-default-company" placeholder="" />
+                            </div>
+                            <span asp-validation-for="TwitterUrl" class="text-danger"></span>
+                            <div class="mb-3">
+                                <label class="form-label" for="basic-default-company">LinkedIn</label>
+                                <input asp-for="LinkedInUrl" class="form-control" id="basic-default-company" placeholder="" />
+                            </div>
+                            <span asp-validation-for="LinkedInUrl" class="text-danger"></span>
+                            <div class="mb-3">
+                                <label class="form-label" for="basic-default-company">Website</label>
+                                <input asp-for="WebsiteUrl" class="form-control" id="basic-default-company" placeholder="" />
+                            </div>
+                            <span asp-validation-for="WebsiteUrl" class="text-danger"></span>
 
                             <div asp-validation-summary="ModelOnly"></div>
                             <button type="submit" class="btn btn-primary">Submit</button>

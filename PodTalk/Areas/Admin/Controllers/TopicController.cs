@@ -35,7 +35,7 @@ namespace PodTalk.Areas.Admin.Controllers
         {
             var topic = await _dbContext.Topics
            .FirstOrDefaultAsync(x => x.Id == requestModel.Id);
-
+            
             if (topic == null) return NotFound();
 
             var removedTopic = _dbContext.Topics.Remove(topic);
@@ -44,11 +44,6 @@ namespace PodTalk.Areas.Admin.Controllers
             if (removedTopic != null)
             {
                 System.IO.File.Delete(Path.Combine(FilePathConstants.TopicPath, topic.ImageUrl));
-
-                foreach (var item in topic.ImageUrl)
-                {
-                    System.IO.File.Delete(Path.Combine(FilePathConstants.TopicPath));
-                }
             }
 
             return Json(removedTopic.Entity);

@@ -36,6 +36,7 @@ namespace PodTalk
             });
 
             FilePathConstants.TopicPath = Path.Combine(builder.Environment.WebRootPath, "images", "topic");
+            FilePathConstants.SpeakerPath = Path.Combine(builder.Environment.WebRootPath, "images", "speaker");
 
             var app = builder.Build();
 
