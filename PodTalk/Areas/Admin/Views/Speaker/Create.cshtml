@@ -1,5 +1,4 @@
-﻿@model TopicCreateViewModel
-
+﻿@model SpeakerCreateViewModel
 <div class="content-wrapper">
     <!-- Content -->
     <div class="container-xxl flex-grow-1 container-p-y">
@@ -9,27 +8,41 @@
             <div class="col-6">
                 <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                  </div>
+                    </div>
                     <div class="card-body">
                         <form method="post" enctype="multipart/form-data">
                             <div class="mb-3">
-                                <label class="form-label" for="basic-default-fullname">Title</label>
-                                <input asp-for="Title" class="form-control" id="basic-default-fullname" placeholder="Title" />
+                                <label class="form-label" for="basic-default-fullname">Name</label>
+                                <input asp-for="Name" class="form-control" id="basic-default-fullname" placeholder="Name" />
                             </div>
-                            <span asp-validation-for="Title" class="text-danger"></span>
+                            <span asp-validation-for="Name" class="text-danger"></span>
                             <div class="mb-3">
                                 <label class="form-label" for="basic-default-company">Cover Image</label>
                                 <input asp-for="CoverImageFile" class="form-control" id="basic-default-company" placeholder="Upload Image" />
                             </div>
                             <span asp-validation-for="CoverImageFile" class="text-danger"></span>
+                            <div class="mb-3">
+                                <a asp-for="FacebookUrl" class="social-icon-link bi-facebook" />
+                            </div>
+                            <span asp-validation-for="YoutubeUrl" class="text-danger"></span>
+                            <div class="mb-3">
+                                <a asp-for="YoutubeUrl" class="social-icon-link bi-youtube" />
+                            </div>
+                            <span asp-validation-for="YoutubeUrl" class="text-danger"></span>
+                            <div class="mb-3">
+                                <label class="form-label" for="basic-default-company">Episode</label>
+                                <select asp-for="EpisodeId" asp-items="Model.EpisodeSelectListItems" class="form-control" id="exampleInputName1" placeholder="Teacher"></select>
+                            </div>
+                            <span asp-validation-for="EpisodeId" class="text-danger"></span>               
+
                             <div asp-validation-summary="ModelOnly"></div>
-                          <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                             <a asp-action="index" class="btn btn-light">Cancel</a>
                         </form>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
     <!-- / Content -->
@@ -62,3 +75,4 @@
 
     <div class="content-backdrop fade"></div>
 </div>
+

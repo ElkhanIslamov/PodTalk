@@ -11,12 +11,10 @@ namespace PodTalk.Areas.Admin.Controllers
     public class TopicController : AdminController
     {
         private readonly AppDbContext _dbContext;
-
         public TopicController(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
-
         public async Task<IActionResult> Index()
         {
             var topic = await _dbContext.Topics
@@ -33,7 +31,6 @@ namespace PodTalk.Areas.Admin.Controllers
 
             return View(topic);
         }
-
         public async Task<IActionResult> Delete([FromBody] RequestModel requestModel)
         {
             var topic = await _dbContext.Topics

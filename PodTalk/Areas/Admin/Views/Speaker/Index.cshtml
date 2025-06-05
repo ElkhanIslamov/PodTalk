@@ -1,20 +1,21 @@
-﻿
-@model List<Topic>
+﻿@model List<Speaker>
 <div class="col-xxl">
     <div class="card mb-4">
         <div class="card-header d-flex align-items-center justify-content-between">
-          <small class="text-muted float-end">Default label</small>
+            <small class="text-muted float-end">Default label</small>
         </div>
         <div class="card-body">
             <h4 class="card-title">Topic</h4>
-            <a asp-controller="topic" asp-action="create" class="btn btn-primary">Add topic</a>
+            <a asp-controller="speaker" asp-action="create" class="btn btn-primary">Add Speaker</a>
             <div class="table-responsive">
                 <table class="table">
                     <thead>
                         <tr>
                             <th>Image</th>
-                            <th>Title</th>
+                            <th>Name</th>
                             <th>Episode</th>
+                            <th>Facebook</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -22,11 +23,16 @@
                         {
                             <tr>
                                 <td><img src="~/images/topic/@item.ImageUrl" alt="test" height="80px" width="70px"></td>
-                                <td>@item.Title</td>
-                                <td>@item.Episodes</td>                               
+                                <td>@item.ImageUrl</td>
+                                <td>@item.Name</td>
+								<td>@item.Episodes.ToList()</td>
+                                <td>@item.FacebookUrl</td>
+                                <td>@item.SpeakerTopics</td>
+                                <td>@item.InstagramUrl.</td>
+                                <td>@item.LinkedInUrl</td>
                                 <td>
-                                    <a asp-controller="topic" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
-                                    <a asp-controller="topic" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
+                                    <a asp-controller="speaker" asp-action="details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+                                    <a asp-controller="speaker" asp-action="update" asp-route-id="@item.Id" class="btn btn-warning">Update</a>
                                     @*  <form method="post" asp-action="delete">
                                             <input type="hidden" name="id" value="@item.Id"/>
                                             <button type="submit" class="btn btn-danger">Delete</button>
@@ -43,7 +49,7 @@
 </div>
 <script>
     function Delete(id, button){
-    const url = '/admin/topic/delete';
+    const url = '/admin/speaker/delete';
     const data = {
       id: id,
     };

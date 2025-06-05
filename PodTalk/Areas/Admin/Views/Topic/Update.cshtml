@@ -1,66 +1,62 @@
 ﻿@model TopicUpdateViewModel
 
 <div class="content-wrapper">
-    <!-- Content -->
+	<!-- Content -->
+	<div class="container-xxl flex-grow-1 container-p-y">
+		<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span> Fill out the form</h4>
+		<!-- Basic Layout -->
+		<div class="row">
+			<div class="col-6">
+				<div class="card mb-4">
+					<div class="card-header d-flex justify-content-between align-items-center">
+					</div>
+					<div class="card-body">
+						<form method="post" enctype="multipart/form-data">
+							<div class="mb-3">
+								<label class="form-label" for="basic-default-fullname">Title</label>
+								<input asp-for="Title" class="form-control" id="basic-default-fullname" placeholder="Title" />
+							</div>
+							<span asp-validation-for="Title" class="text-danger"></span>
+							<div class="mb-3">
+								<label class="form-label" for="basic-default-company">Cover Image</label>
+								<input asp-for="CoverImageFile" class="form-control" id="basic-default-company" placeholder="Upload Image" />
+							</div>
+							<span asp-validation-for="CoverImageFile" class="text-danger"></span>
+							<div asp-validation-summary="ModelOnly"></div>
+							<button type="submit" class="btn btn-primary">Submit</button>
+							<a asp-action="index" class="btn btn-light">Cancel</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- / Content -->
+	<!-- Footer -->
+	<footer class="content-footer footer bg-footer-theme">
+		<div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+			<div class="mb-2 mb-md-0">
+				©
+				<script>
+					document.write(new Date().getFullYear());
+				</script>
+				, made with ❤️ by
+				<a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
+			</div>
+			<div>
+				<a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
+				<a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
 
-    <div class="container-xxl flex-grow-1 container-p-y">
-        <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light"></span> Fill out the form</h4>
+				<a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
+				   target="_blank"
+				   class="footer-link me-4">Documentation</a>
 
-        <!-- Basic Layout -->
-        <div class="row">
-            <div class="col-6">
-                <div class="card mb-4">
-                    <div class="card-header d-flex justify-content-between align-items-center">
-                    </div>
-                    <div class="card-body">
-                        <form method="post" enctype="multipart/form-data">
-                            <div class="mb-3">
-                                <label class="form-label" for="basic-default-fullname">Title</label>
-                                <input asp-for="Title" class="form-control" id="basic-default-fullname" placeholder="Title" />
-                            </div>
-                            <span asp-validation-for="Title" class="text-danger"></span>
-                            <div class="mb-3">
-                                <label class="form-label" for="basic-default-company">Cover Image</label>
-                                <input asp-for="CoverImageFile" class="form-control" id="basic-default-company" placeholder="Upload Image" />
-                            </div>
-                            <span asp-validation-for="CoverImageFile" class="text-danger"></span>
-                            <div asp-validation-summary="ModelOnly"></div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                            <a asp-action="index" class="btn btn-light">Cancel</a>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- / Content -->
-    <!-- Footer -->
-    <footer class="content-footer footer bg-footer-theme">
-        <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-            <div class="mb-2 mb-md-0">
-                ©
-                <script>
-                    document.write(new Date().getFullYear());
-                </script>
-                , made with ❤️ by
-                <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-            </div>
-            <div>
-                <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                <a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/"
-                   target="_blank"
-                   class="footer-link me-4">Documentation</a>
-
-                <a href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
-                   target="_blank"
-                   class="footer-link me-4">Support</a>
-            </div>
-        </div>
-    </footer>
-    <!-- / Footer -->
-
-    <div class="content-backdrop fade"></div>
+				<a href="https://github.com/themeselection/sneat-html-admin-template-free/issues"
+				   target="_blank"
+				   class="footer-link me-4">Support</a>
+			</div>
+		</div>
+	</footer>
+	<!-- / Footer -->
+	<div class="content-backdrop fade"></div>
 </div>
